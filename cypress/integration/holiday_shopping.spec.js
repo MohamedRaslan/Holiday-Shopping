@@ -8,7 +8,7 @@ const holidayShopping = require("../fixtures/holiday_shopping_data.json")
 context('Holiday Shopping Hackathon For Fun', function () {
     // partToRun : Is the part you want to run from the hackathon instructions
     // https://applitools.com/hackathon-v20-3-instructions/
-    // By default, it's the first part, but you can use the CLI to set the env key 'RUN_PART' clto different value "1, 2, or 3"
+    // By default, it's the first part, but you can use the CLI to set the env key 'RUN_PART' to different value "1, 2, or 3"
     // https://docs.cypress.io/guides/guides/command-line.html#cypress-run-env-lt-env-gt
 
     var partToRun = [1, 2, 3].includes(Cypress.env('RUN_PART')) ? holidayShopping[Cypress.env('RUN_PART') - 1] : holidayShopping[0]
