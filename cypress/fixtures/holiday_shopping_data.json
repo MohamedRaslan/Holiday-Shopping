@@ -1,0 +1,53 @@
+[
+  {
+    "partNumber": 1,
+    "partName": "Executing the tests against V1 production version",
+    "url": "tlcHackathonMasterV1.html",
+    "browser": {
+      "name": "chrome",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "partNumber": 2,
+    "partName": "Executing the tests against dev-branch version",
+    "url": "tlcHackathonDev.html",
+    "browser": {
+      "name": "chrome",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  {
+    "partNumber": 3,
+    "partName": "Executing the tests against final production version",
+    "url": "tlcHackathonMasterV2.html",
+    "browser": [
+      {
+        "name": "chrome",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "name": "firefox",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "name": "edgechromium",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "name": "safari",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "deviceName": "iPhone X",
+        "screenOrientation": "portrait"
+      }
+    ]
+  }
+]

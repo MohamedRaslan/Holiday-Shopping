@@ -1,0 +1,30 @@
+{
+  "name": "Holiday-Shopping",
+  "version": "1.0.0",
+  "description": "Holiday Shopping Hackathon by Applitools",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome --headless --reporter mochawesome",
+    "cy:clean-reports": "shx rm -rf cypress/reports",
+    "cy:open": "cypress open",
+    "dsg": "cypress run --env RUN_PART=2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedRaslan/Holiday-Shopping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedRaslan/Holiday-Shopping/issues"
+  },
+  "homepage": "https://github.com/MohamedRaslan/Holiday-Shopping#readme",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "latest",
+    "cypress": "latest",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "shx": "^0.3.3"
+  }
+}

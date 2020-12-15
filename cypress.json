@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://demo.applitools.com/",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    },
+    "screenshotsFolder": "cypress/reports/screenshots",
+    "watchForFileChanges": false,
+    "viewportWidth": 1980,
+    "viewportHeight": 1080
+}
