@@ -36,7 +36,3 @@
 
 + **For Part 3**
     + The URL for the batch test results from the applitools dashboard is **[From Here](https://eyes.applitools.com/app/test-results/00000251794231672180?accountId=0BBzkOURv0W_gxSf2WFd0w~~&display=details&top=00000251794231672180%283%29)**
-
-
-#### Please Note
-*Some links don't open correctly but the URL is correct (try to view the [readme.md](https://github.com/MohamedRaslan/Holiday-Shopping/blob/main/README.md) file as a raw data and open the links)*
