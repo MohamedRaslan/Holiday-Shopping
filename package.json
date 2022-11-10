@@ -23,7 +23,7 @@
   "devDependencies": {
     "@applitools/eyes-cypress": "latest",
     "cypress": "latest",
-    "mocha": "^8.2.1",
+    "mocha": "^10.1.0",
     "mochawesome": "^6.2.1",
     "shx": "^0.3.3"
   }
