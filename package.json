@@ -24,7 +24,7 @@
     "@applitools/eyes-cypress": "latest",
     "cypress": "latest",
     "mocha": "^10.1.0",
-    "mochawesome": "^6.2.1",
+    "mochawesome": "^7.1.3",
     "shx": "^0.3.3"
   }
 }
